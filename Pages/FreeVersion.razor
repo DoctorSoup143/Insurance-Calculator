@@ -1,0 +1,232 @@
+﻿@page "/FreeVersion"
+
+<PageTitle>Home</PageTitle>
+
+
+<div class="alert alert-primary" role="alert">
+    This tool is currently in development. If you notice any issues, please submit a bug report on GitLab.
+</div>
+
+
+<br />
+
+
+<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 fw-normal">Free Insurance Calculator</h1>
+    <p class="fs-5 text-muted">Quickly calculate an accurate estimate for your potential upcoming medical procedures. <br />This tool is not a guarentee and does not determine procedure cost.</p>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Your Deductible</h4>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="deductibleLabel" class="form-label">Deductible Amount</label>
+                        <input type="text" class="form-control" id="deductible" placeholder="2000"  @bind-value="deductible">
+                        <div id="deductibleHelp" class="form-text">The amount you pay before your insurance starts to pay.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="deductibleAccLabel" class="form-label">Deductible Accumulations</label>
+                        <input type="text" class="form-control" id="deductibleAcc" placeholder="1000" @bind-value="deductibleAcc">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Your Out of Pocket</h4>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="oopLabel" class="form-label">Out Of Pocket Maximum</label>
+                        <input type="text" class="form-control" id="oop" placeholder="5000"  @bind-value="oop">
+                        <div id="oopHelp" class="form-text">The most you have to pay for services in a plan year.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="oopAccLabel" class="form-label">Out Of Pocket Accumulations</label>
+                        <input type="text" class="form-control" id="oopAcc" placeholder="1000" @bind-value="oopAcc">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Your Benefits</h4>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="coInsLabel" class="form-label">Co-Insurance</label>
+                        <input type="text" class="form-control" id="coIns" placeholder="20" @bind-value="coIns">
+                        <div id="coInsHelp" class="form-text">Your percentage of costs.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="coPayLabel" class="form-label">Co-Payment</label>
+                        <input type="text" class="form-control" id="coPay" placeholder="15" @bind-value="coPay">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="row col-md-10 offset-md-1 centered mb-3 text-center">
+    <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Procedure Details</h4>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="row">
+                        <div class="mb-3 col-4">
+                            <label for="procedureNameLabel" class="form-label">Procedure</label>
+                            <input type="text" class="form-control" id="coIns" placeholder="Focal Laser" @bind-value="procedureName">
+                            <div id="coInsHelp" class="form-text">The name of the procedure.</div>
+                        </div>
+                        <div class="mb-3  col-4">
+                            <label for="CPTLabel" class="form-label">CPT Code</label>
+                            <input type="text" class="form-control" id="CPT" placeholder="67210" @bind-value="CPT">
+                            <div id="CPTHelp" class="form-text">Not a required field.</div>
+                        </div>
+                        <div class="mb-3  col-4">
+                            <label for="costLabel" class="form-label">Cost</label>
+                            <input type="text" class="form-control" id="cost" placeholder="149.99" @bind-value="cost">
+                            <div id="costHelp" class="form-text">The cost of the procedure.</div>
+                        </div>
+                    </div>
+                </form>
+                <div class="row col-md-6 offset-md-3 centered mb-3 mb-3 text-center">
+                    <button type="button" class="w-100 btn btn-lg btn-primary" @onclick="calc">Calculate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<div class="row col-md-10 offset-md-1 centered mb-3 mb-3 text-center">
+    <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Estimated Cost: @amountDue.ToString("c")</h4>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="row">
+                        <div class="mb-3 col-4 offset-md-2">
+                            <label for="CPTPint" class="form-label">Procedure Name</label>
+                            <br />
+                            <input class="form-control text-center" type="text" value="@procedureName" aria-label="readonly input example" readonly>
+                        </div>
+                        <div class="mb-3 col-4">
+                            <label for="CPTPint" class="form-label">CPT Code</label>
+                            <br />
+                            <input class="form-control text-center" type="text" value="@CPT.ToString("")" aria-label="readonly input example" readonly>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="mb-3 col-4">
+                            <label for="CPTPint" class="form-label">Amount Applied To Deductible</label>
+                            <br />
+                            <input class="form-control text-center" type="text" value="@dedApplied.ToString("c")" aria-label="readonly input example" readonly>
+                        </div>
+                        <div class="mb-3 col-4">
+                            <label for="CPTPint" class="form-label">Amount Applied To Co-Insurance</label>
+                            <br />
+                            <input class="form-control text-center" type="text" value="@coInsApplied.ToString("c")" aria-label="readonly input example" readonly>
+                        </div>
+                        <div class="mb-3 col-4">
+                             <label for="CPTPint" class="form-label">Amount Applied To Co-Payment</label>
+                             <br />
+                            <input class="form-control text-center" type="text" value="@coPayApplied.ToString("c")" aria-label="readonly input example" readonly>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br />
+
+<div class="alert alert-secondary" role="alert">
+    This tool is not a guarentee of procedure cost. The accuracy of all provided estimates are dependent on the information provided, and the contract rates of your healthcare provider. Contact your insurance company for exact amounts.
+</div>
+
+<br />
+<br />
+
+
+
+
+
+
+
+
+@code {
+    decimal deductible = 0;
+    decimal deductibleAcc = 0;
+    decimal oop = 0;
+    decimal oopAcc = 0;
+    decimal coPay = 0;
+    decimal coIns = 0;
+    string procedureName = "";
+    int CPT = 0;
+    decimal cost = 0;
+    decimal amountDue = 0;
+    decimal dedApplied = 0;
+    decimal coInsApplied = 0;
+    decimal coPayApplied = 0;
+
+
+    private void calc()
+    {
+        decimal dedRemaining = deductible - deductibleAcc;
+        decimal oopRemaining = oop - oopAcc;
+        decimal coInsCalc = coIns / 100;
+
+        dedApplied = (cost > dedRemaining) ? dedRemaining : cost;
+        decimal costRemaining = cost - dedApplied;
+        decimal dedRemainingAfterCPT = (dedApplied != 0) ? ((dedApplied < cost) ? cost - dedApplied : 0) : cost;
+
+        coPayApplied = (coPay != 0) ? coPay : 0;
+
+        coInsApplied = costRemaining * coInsCalc;
+
+        amountDue = coInsApplied + dedApplied;
+
+        if (coPay > 0)
+            amountDue = coPay;
+
+        if (amountDue < 0)
+            amountDue = 0;
+
+        if (amountDue > oopRemaining)
+            amountDue = oopRemaining;
+
+        if (coInsApplied > amountDue - dedApplied)
+            coInsApplied = amountDue - dedApplied;
+    }
+
+}
