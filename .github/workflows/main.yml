@@ -30,4 +30,5 @@ on:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
         FOLDER: release/wwwroot
+        skip_deploy_on_missing_secrets: true
         
