@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "InsuranceCalculatorWebApp.dll": "sha256-fgb5egu8rwtIqRcR+ErfIMSXJr8KDoVpHn\/wr0jLUlI=",
+      "InsuranceCalculatorWebApp.dll": "sha256-lkvWvslyxxLCJDbWWxxsqDuvZW\/6gXw99E0x1UtvBu0=",
       "Microsoft.AspNetCore.Components.dll": "sha256-rcRmLJyBWwKZQvDYPHPgptNzwUW8Q1OUVxFhlXeGi18=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-j7m+ptk2Pxamc1Sdlnv8VlSWsxhvgPvtmgdqKItFE10=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-hItIMIcIumfGi1q3IylwSEfpyLuK1QShnYCDeXYXF+M=",
