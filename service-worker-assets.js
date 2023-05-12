@@ -157,7 +157,7 @@
       "url": "Health Care Calc.styles.css"
     },
     {
-      "hash": "sha256-XQ0UQ3TlWKwMW0us2lQB1byKD0hh3aimcw7+AI8zU5s=",
+      "hash": "sha256-VZa8T4Alw6Retv4ZOAw9F88dYaGdtVWmRuW6uVuvX3E=",
       "url": "css\/app.css"
     },
     {
@@ -221,5 +221,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "iuiW8YgV"
+  "version": "ZDpg+rpv"
 };
