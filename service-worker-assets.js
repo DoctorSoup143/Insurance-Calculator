@@ -209,7 +209,7 @@
       "url": "css\/open-iconic\/README.md"
     },
     {
-      "hash": "sha256-TFp5kKurpHt8duDQgQkf\/u9UMKGd7CK0wA6VMgao10c=",
+      "hash": "sha256-qNt87ucfFJpemgwigyEPz3D6AOR\/u2\/\/WjfKtTWycFw=",
       "url": "index.html"
     },
     {
@@ -221,5 +221,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "feWvcVQg"
+  "version": "KfDydxaW"
 };
