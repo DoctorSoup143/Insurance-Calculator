@@ -33,11 +33,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-aK0034ucU4wVAQBYJShgLWIZlj9eNaNxOvuzaxjNSro=",
+      "hash": "sha256-Hu22AWaBB9qccTb97ImQ\/StlEHgDzrDJGD35jyFblv0=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-BjWhADUVzqn81iqkz2tSQaTmmv3YG9SsllioWY0ubL8=",
+      "hash": "sha256-aUdFDX+hikhQggBiBWjcprc6BAIBQvSvkypmUX3ZUt8=",
       "url": "_framework\/Health Care Calc.dll"
     },
     {
@@ -221,5 +221,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "IrYDwkZJ"
+  "version": "24gvCyJL"
 };
