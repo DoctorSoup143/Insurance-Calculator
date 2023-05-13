@@ -33,11 +33,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-Oh0Hd\/AJwHOBvn19I+K3xTi2G8rcWQ6Ulzvi70cG9Po=",
+      "hash": "sha256-GBGoMe4YCtibPO58HfydZXPTMLJwr4YWsSl+xaSVesw=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-1EdohAmnUJgtN41UwhvdqTSlIi+Y0ZpO37AsyTy58qY=",
+      "hash": "sha256-z+bnfnP5EaxIXcLvTFVHHEN0AcWXwcMeorERJSiACLg=",
       "url": "_framework\/Health Care Calc.dll"
     },
     {
@@ -221,5 +221,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "\/yo\/4hi\/"
+  "version": "29kHwQJ3"
 };
