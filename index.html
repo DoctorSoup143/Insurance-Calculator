@@ -2,6 +2,18 @@
 <html lang="en">
 
 <head>
+    <!-- Prevent Cache JS -->
+    <script type="text/javascript">
+        caches.delete("blazor-resources-/").then(function (e) {
+            console.log("'blazor-resources-/' cache deleted");
+        });
+    </script>
+
+    <!-- Prevent Cache HTML -->
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+
 
     <!-- META TAGS -->
     <meta charset="utf-8">
@@ -19,11 +31,6 @@
     <meta property="og:url" content="https://HealthcareCalc.app/">
     <meta name="description" content="A minimalistic app that contains healthcare  calculators, an ICD-10 lookup tool, and a CPT code lookup tool.">
     <meta name="keywords" content="insurance calculator, heath insurance, insurnce calculator, health insurance calculator">
-
-    <!-- Prevent Cache -->
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="-1">
-    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
 
     <!-- Twitter Tags -->
     <meta name="twitter:image" content="">
@@ -50,7 +57,7 @@
     <link href="manifest.json" rel="manifest" />
     <!-- Add To Home Screen -->
     <!-- JavaScript -->
-    <script src="js/Switcher.js"></script>
+
 
 
     <!-- Favicon and Apple Icons -->

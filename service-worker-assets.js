@@ -213,7 +213,7 @@
       "url": "css\/open-iconic\/README.md"
     },
     {
-      "hash": "sha256-j+ULRI2TO0Rae8V3\/TlRaPGXe+A5PPagReUqq55O1sA=",
+      "hash": "sha256-CJ7PjfI1sValRpKw9N5PI6uuAFOz5HKicplZQdIEPQo=",
       "url": "index.html"
     },
     {
@@ -221,5 +221,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "p+L8iGFr"
+  "version": "sfAsbji6"
 };
