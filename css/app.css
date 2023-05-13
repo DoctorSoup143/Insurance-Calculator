@@ -72,18 +72,26 @@ a, .btn-link {
 .navbar-bottom {
     margin-bottom: 0;
     color: black;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 4vw;
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .Bottom-nav-link {
     color: black;
     display: block;
     padding-top: 10px;
-    padding-bottom: 2px;
+    padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 0px;
     margin-top: 5px;
     margin-bottom: 40px;
-    margin-left: 5vw;
+    margin-left: 0px;
     margin-right: 0px;
     font-size: 25px;
     font-weight: var(--bs-nav-link-font-weight);
