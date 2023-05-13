@@ -100,6 +100,7 @@ a, .btn-link {
     background: 0 0;
     border: 0;
     border-radius: 6px;
+    border-color: #f5f6fb;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
