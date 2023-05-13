@@ -33,11 +33,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-l2BV\/Dwf8lHs78xI45gBq51pQxBToj6tZtSR52APlcU=",
+      "hash": "sha256-MpY9fFtrGx8yaIBfmply1V3lhCE0Eqr62lKOPfrvVu8=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-\/ZQGkQGmE+Beru97DUadcFg4HMQFxFLWjLk9UcSrTBk=",
+      "hash": "sha256-9MViMn+y6ezoF3LuC3wcqiYjtiI0+oYsOnsYvdEnjqo=",
       "url": "_framework\/Health Care Calc.dll"
     },
     {
@@ -161,7 +161,7 @@
       "url": "css\/animations.css"
     },
     {
-      "hash": "sha256-sydMzkVIpYsRqzMtEuc2dxjb24mFP2YzRR5XnuDnrMw=",
+      "hash": "sha256-8nlPJaGOkKuTwrDm2e5Tj96nwdGlJRc+BHwOsEgv90g=",
       "url": "css\/app.css"
     },
     {
@@ -217,17 +217,9 @@
       "url": "index.html"
     },
     {
-      "hash": "sha256-JMzt6StxrymZxEgv\/cx0vBqZ2i7pQV9Rx1vAEvp4yeA=",
-      "url": "js\/Switcher.js"
-    },
-    {
       "hash": "sha256-2AGBOCRhU1s2slvBBxDZlw1fy+l0xVSo81zCjlDKHX8=",
       "url": "manifest.json"
-    },
-    {
-      "hash": "sha256-yzFf+O\/mlH+Q9klUSqXP2kxGKOUFLPxaww8da8fKhGU=",
-      "url": "sample-data\/weather.json"
     }
   ],
-  "version": "+bDsVNB8"
+  "version": "VFwzJvH1"
 };
