@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "Health Care Calc.dll": "sha256-0mOCoeWikbOU+Nx58jI+Ux4Q5mWiA1bAeeDzOmBPvVk=",
+      "Health Care Calc.dll": "sha256-9kWy+1Q44no7Bt\/TC7NUdUOb2W3+Ly6xfwKIEVj+o6E=",
       "Microsoft.AspNetCore.Components.dll": "sha256-1JeAKg7N3zbJih57Iyl+sjtDhocSsJec\/3VU9THmqzo=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-wCypzIa5G5AlP6ofbVexM8NcrLk3mCazz\/qvJkUApr4=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-Vg3TrndeJD43yrWipLvpZIUkG\/gsZ3o4oeysmZMBL30=",
