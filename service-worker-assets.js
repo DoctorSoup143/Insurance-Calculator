@@ -33,15 +33,15 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-Hu22AWaBB9qccTb97ImQ\/StlEHgDzrDJGD35jyFblv0=",
+      "hash": "sha256-t0cOKSAVdsGE7CnaJ7\/5Zs6BGkqtxrBNs0iR0cGt5f0=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-aUdFDX+hikhQggBiBWjcprc6BAIBQvSvkypmUX3ZUt8=",
+      "hash": "sha256-JsqeZd9xNxMxBXPyvZd\/AX15jvgfZpTFWL7hkJVZkSs=",
       "url": "_framework\/Health Care Calc.dll"
     },
     {
-      "hash": "sha256-Atpv5I\/YzX3RVGpu9jhNUly7NQIiVkmwY9b7x5d40sM=",
+      "hash": "sha256-1JeAKg7N3zbJih57Iyl+sjtDhocSsJec\/3VU9THmqzo=",
       "url": "_framework\/Microsoft.AspNetCore.Components.dll"
     },
     {
@@ -125,7 +125,7 @@
       "url": "_framework\/System.Net.Primitives.dll"
     },
     {
-      "hash": "sha256-M+\/Ofg+pNRAscl2sguBtDoGSsxELitS1FUHPWAklkgg=",
+      "hash": "sha256-INNo5AOYL8mrxLiLGsXnQwpeS6fS\/9MmWENjsUuBdX8=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -141,7 +141,7 @@
       "url": "_framework\/System.Runtime.CompilerServices.Unsafe.dll"
     },
     {
-      "hash": "sha256-LeY\/\/Q+cGxdDBIMXhi7JObvUHcT9g8bLjvU\/IAKe674=",
+      "hash": "sha256-kldChIU5lp2ekgF1n7uivrxW49bfB4Z0xWpS0td80AM=",
       "url": "_framework\/System.Runtime.dll"
     },
     {
@@ -157,7 +157,7 @@
       "url": "Health Care Calc.styles.css"
     },
     {
-      "hash": "sha256-4JGLA2CrmUgrL15Rn2w2dm6XSPYa3UvUIvaifk8lcE4=",
+      "hash": "sha256-LzsWpbEZ5MJNy7D0yIQuSMwtf8R0ZJrvmDBIsgfprEo=",
       "url": "css\/app.css"
     },
     {
@@ -209,8 +209,12 @@
       "url": "css\/open-iconic\/README.md"
     },
     {
-      "hash": "sha256-+UIKEJ5Az43S5Mntvwa3vC5u8tcwtPN2SPAu37u0Wg4=",
+      "hash": "sha256-j+ULRI2TO0Rae8V3\/TlRaPGXe+A5PPagReUqq55O1sA=",
       "url": "index.html"
+    },
+    {
+      "hash": "sha256-JMzt6StxrymZxEgv\/cx0vBqZ2i7pQV9Rx1vAEvp4yeA=",
+      "url": "js\/Switcher.js"
     },
     {
       "hash": "sha256-2AGBOCRhU1s2slvBBxDZlw1fy+l0xVSo81zCjlDKHX8=",
@@ -221,5 +225,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "24gvCyJL"
+  "version": "GX+dJW9C"
 };
