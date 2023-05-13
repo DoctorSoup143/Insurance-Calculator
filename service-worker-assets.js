@@ -33,11 +33,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-etn72o5qhHRxnXju3gj15AOAqmmyWccnQGSuwvbD52E=",
+      "hash": "sha256-VxFnE4kGNbu1rri6p5ZolXCnptpBVlGD+S\/oj9o54Ms=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-9kWy+1Q44no7Bt\/TC7NUdUOb2W3+Ly6xfwKIEVj+o6E=",
+      "hash": "sha256-JvsJj\/4Ao64sPC5pVll\/Quz7z9W7D4BZy8l3qq4LXhQ=",
       "url": "_framework\/Health Care Calc.dll"
     },
     {
@@ -125,7 +125,7 @@
       "url": "_framework\/System.Net.Primitives.dll"
     },
     {
-      "hash": "sha256-INNo5AOYL8mrxLiLGsXnQwpeS6fS\/9MmWENjsUuBdX8=",
+      "hash": "sha256-2lib\/6h2vAbcF7JVFdGfukEd2Cu0DHv\/\/Hx88VnMCLw=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -221,5 +221,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "lJmPyME0"
+  "version": "xNuE+oLY"
 };
