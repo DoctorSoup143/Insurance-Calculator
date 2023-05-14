@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "Health Care Calc.dll": "sha256-z+bnfnP5EaxIXcLvTFVHHEN0AcWXwcMeorERJSiACLg=",
+      "Health Care Calc.dll": "sha256-Qq4OgKxVRIOc+8N3SSMYaXMPGcF65HpOw4dAKdneWgY=",
       "Microsoft.AspNetCore.Components.dll": "sha256-1JeAKg7N3zbJih57Iyl+sjtDhocSsJec\/3VU9THmqzo=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-wCypzIa5G5AlP6ofbVexM8NcrLk3mCazz\/qvJkUApr4=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-Vg3TrndeJD43yrWipLvpZIUkG\/gsZ3o4oeysmZMBL30=",
@@ -42,7 +42,7 @@
     "libraryInitializers": null,
     "pdb": null,
     "runtime": {
-      "dotnet.6.0.16.xsnyws0zv5.js": "sha256-GT2gK+GjOisRXJY+9yh6H8s6K\/KDIsaFMFIgWvAnttY=",
+      "dotnet.6.0.16.xsnyws0zv5.js": "sha256-lMY3UOF7WlUEjm7PGT6jMauG1JwlHrvuXPBA995KyEw=",
       "dotnet.timezones.blat": "sha256-u8KbOjPcD2\/Pcbb0HaYyOuxEMMBYBUoicERKuSq9KMU=",
       "dotnet.wasm": "sha256-qD0yE2pPRrUZHsuAj5If3uIg1gptLud06+eBaGEftXk=",
       "icudt.dat": "sha256-Zuq0dWAsBm6\/2lSOsz7+H9PvFaRn61KIXHMMwXDfvyE=",

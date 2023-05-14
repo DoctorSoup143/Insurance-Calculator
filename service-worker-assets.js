@@ -5,7 +5,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-GT2gK+GjOisRXJY+9yh6H8s6K\/KDIsaFMFIgWvAnttY=",
+      "hash": "sha256-lMY3UOF7WlUEjm7PGT6jMauG1JwlHrvuXPBA995KyEw=",
       "url": "_framework\/dotnet.6.0.16.xsnyws0zv5.js"
     },
     {
@@ -33,11 +33,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-GBGoMe4YCtibPO58HfydZXPTMLJwr4YWsSl+xaSVesw=",
+      "hash": "sha256-bfZ5g5ySTDjGZPDTlU1fmXSG050IqgI+CH\/DzydiGHE=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-z+bnfnP5EaxIXcLvTFVHHEN0AcWXwcMeorERJSiACLg=",
+      "hash": "sha256-Qq4OgKxVRIOc+8N3SSMYaXMPGcF65HpOw4dAKdneWgY=",
       "url": "_framework\/Health Care Calc.dll"
     },
     {
@@ -165,7 +165,7 @@
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "hash": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7\/p4nS6D\/0=",
       "url": "css\/bootstrap\/bootstrap.min.css"
     },
     {
@@ -213,7 +213,7 @@
       "url": "css\/open-iconic\/README.md"
     },
     {
-      "hash": "sha256-CJ7PjfI1sValRpKw9N5PI6uuAFOz5HKicplZQdIEPQo=",
+      "hash": "sha256-sB78+eQOVyo8ujyHRIKHPWBkGIDuuk\/5X1np2TUTehU=",
       "url": "index.html"
     },
     {
@@ -221,5 +221,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "29kHwQJ3"
+  "version": "XX6GWy\/Q"
 };
